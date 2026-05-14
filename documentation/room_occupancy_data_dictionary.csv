@@ -1,1 +1,14 @@
-
+Field,Description
+Date,Calendar date for the room usage observation.
+Day of Week,Name of the weekday for filtering and comparison.
+Hour,"Hour of day in 24-hour format, 0 through 23."
+Time Label,Display-friendly hour label for dashboard views.
+Hour Start,Date-time timestamp for Tableau time-series visuals.
+Room Name,Name of the room being analyzed.
+Capacity,Maximum number of people the room can hold.
+Occupancy Count,Number of people using the room during that hour.
+Occupancy Rate,Occupancy Count divided by Capacity.
+Occupancy Rate Label,Formatted percentage version of Occupancy Rate.
+Usage Status,"Green, Amber, or Red classification based on occupancy rate."
+Booking Type,Synthetic business context for the room usage period.
+Notes,Plain-language interpretation of the usage status.
